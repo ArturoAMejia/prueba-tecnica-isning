@@ -1,5 +1,6 @@
 import { Blog } from "@/components/blog";
 import { ContactUs } from "@/components/contact-us";
+import { Footer } from "@/components/footer";
 import { Gallery } from "@/components/gallery";
 import { Header } from "@/components/header";
 import { MainHero } from "@/components/main-hero";
@@ -18,6 +19,7 @@ export default function Home() {
       <Testimonials />
       <Blog />
       <ContactUs />
+      <Footer />
     </div>
   );
 }

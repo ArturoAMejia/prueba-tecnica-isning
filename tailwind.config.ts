@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import plugin from "tailwindcss-animate";
 
 export default {
   darkMode: ["class"],
@@ -61,8 +62,9 @@ export default {
       },
       backgroundImage: {
         main_hero: "url('/img/pool.webp')",
+        footer: "url('/img/main-hero.jpg')",
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [plugin],
 } satisfies Config;

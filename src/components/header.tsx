@@ -24,8 +24,8 @@ export const Header = () => {
         <div className="flex items-center justify-between h-20">
           <Link href="#" className="flex items-center">
             <Image
-              className="w-32"
-              src="/next.svg"
+              className="w-20"
+              src="/logo.png"
               alt="logo"
               width={300}
               height={400}
