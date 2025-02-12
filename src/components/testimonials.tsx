@@ -19,7 +19,7 @@ export const Testimonials = () => {
           over the years.
         </p>
       </div>
-      <div className="flex my-12">
+      <div className="md:flex my-12">
         <div className="bg-neutral-50 rounded-3xl lg:mr-32 mb-4 lg:relative lg:h-72 p-12 lg:w-1/3 w-full">
           <div>
             <h3 className="text-2xl font-serif">Laura Chen</h3>

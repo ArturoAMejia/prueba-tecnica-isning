@@ -15,7 +15,7 @@ export const ContactUs = () => {
         </div>
       </section>
       <div className="bg-neutral-50 md:px-28 md:pb-28 pb-12 md:flex py-16">
-        <div className="w-1/2">
+        <div className="md:w-1/2 p-8">
           <h2 className="text-5xl font-serif mb-4 pt-8 pb-2 text-left">
             Ready to <span className="block">Get Started?</span>
           </h2>
@@ -45,7 +45,7 @@ export const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2 p-8">
           <form className="w-full p-16 rounded-3xl shadow-xl">
             <div className="flex flex-col gap-6">
               <h2 className="text-4xl font-montserrat font-semibold">
